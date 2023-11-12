@@ -90,3 +90,14 @@ body, html {
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
+
+  #all-beers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imgbeers {
+    width: 10vh;
+    height: auto;
+  }
