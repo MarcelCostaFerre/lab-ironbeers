@@ -5,3 +5,88 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+body, html {
+    padding:0;
+    margin:0;
+  }
+  
+  body {
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .site-nav ul {
+    background:#2081c3;
+    display:flex;
+    list-style:none;
+    gap:2rem;
+    padding:1rem;
+    margin-top: 0;
+  }
+  
+  .site-nav a {
+    color:#FFF;
+    text-decoration: none;
+  }
+  
+  .site-nav a:hover {
+    text-decoration: underline;
+  }
+
+  img {
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .button-beers {
+    background-color: #2081c3;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    height: fit-content;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-beers:hover {
+    text-decoration: underline;
+  }
+
+  .button-random {
+    background-color: #2081c3;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    height: fit-content;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-random:hover {
+    text-decoration: underline;
+  }
+
+  .site-body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
